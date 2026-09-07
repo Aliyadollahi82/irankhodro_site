@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-800 font-sans antialiased;
+    direction: rtl;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* افزایش جابه‌جایی عمودی برای نرمی بیشتر */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition {
+  /* افزایش زمان از 0.7 ثانیه به 1.2 ثانیه جهت کندتر و نرم‌تر شدن تغییر صفحه */
+  animation: fadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
