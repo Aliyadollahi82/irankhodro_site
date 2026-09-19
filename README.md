@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 IKCO Bice
 
-## Getting Started
+A modern and responsive automotive website inspired by the visual style and structure of **Iran Khodro (IKCO)**.
 
-First, run the development server:
+The project provides a car showcase and sales-oriented interface with a focus on vehicle presentation, user interaction, and a Persian RTL experience.
+
+## 🌐 Live Demo
+
+[View Website](https://ikco-bice.vercel.app/)
+
+## 🛠️ Technologies
+
+* Next.js 16
+* React
+* Tailwind CSS
+* JavaScript / TypeScript
+* HTML5
+* CSS3
+* Responsive Design
+
+## ✨ Features
+
+* Modern automotive website design
+* Vehicle showcase
+* Car product pages
+* Car sales section
+* User registration and login
+* Order and purchase functionality
+* Order tracking
+* Responsive navigation
+* Persian RTL layout
+* Responsive design for different screen sizes
+* Modern and user-friendly interface
+
+## 🚘 Automotive Showcase
+
+The website includes sections for presenting different vehicle models, allowing users to explore available cars and access their related information.
+
+## 📱 Responsive Design
+
+The website is optimized for:
+
+* 💻 Desktop
+* 📱 Mobile
+* 📲 Tablet
+
+## 🚀 Getting Started
+
+First, install the project dependencies:
+
+```bash
+npm install
+```
+
+Then, start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project is deployed on **Vercel**.
 
-## Learn More
+[View Live Project](https://ikco-bice.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Designed and developed as a frontend web project using Next.js and Tailwind CSS.
